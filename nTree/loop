@@ -1,0 +1,23 @@
+/* 基本的 N 叉树节点 */
+class TreeNode {
+    int val;
+    TreeNode[] children;
+}
+
+void traverse(TreeNode root) {
+    for (TreeNode child : root.children)
+        traverse(child)
+}
+
+class TreeNode {
+    int val;
+    TreeNode[] children;
+}
+
+void traeverse(TreeNode root){
+    if(root == null)
+        return;
+    for(TreeNode child: children){
+        travese(child)
+    }
+}
