@@ -1,0 +1,112 @@
+// this file shows that how to progress to wirte code for recursioj fib to memo fiiuub
+// to dp fib
+int fib(int N) {
+    if (N == 1 || N == 2) return 1;
+    return fib(N - 1) + fib(N - 2);
+}
+
+
+int fib(int N){
+    if(N on 1,2 )
+        reutnr 1;
+    reurtrn f(n-1) + f(n-2);
+}
+
+vector<int> memo(n + 1, 0);
+
+int fib(int N){
+    if n in memo 
+        reruen memo[n]
+    else
+        mmemo [n] = f(n -1 ) + f(n-2)
+}
+
+int fib(int N) {
+    if (N < 1) return 0;
+    // 备忘录全初始化为 0
+    vector<int> memo(N + 1, 0);
+    // 初始化最简情况
+    return helper(memo, N);
+}
+
+int helper(vector<int>& memo, int n) {
+    // base case 
+    if (n == 1 || n == 2) return 1;
+    // 已经计算过
+    if (memo[n] != 0) return memo[n];
+    memo[n] = helper(memo, n - 1) + 
+                helper(memo, n - 2);
+    return memo[n];
+}
+
+int fib(int N){
+    if (N < 1)
+        return 0;
+    vecotr<int> memo(N + 1, 0);
+    return herper(memeo, N);
+}
+
+vector<int>& memo
+
+int fib(int n){
+    if(n in 1, 2)
+        return 1;
+    if(memo[n])
+        return memo[n]
+    memo[n] = helper(n-1) + helper[n-2];
+    return memo[n]
+}
+
+int fib(int N) {
+    vector<int> dp(N + 1, 0);
+    // base case
+    dp[1] = dp[2] = 1;
+    for (int i = 3; i <= N; i++)
+        dp[i] = dp[i - 1] + dp[i - 2];
+    return dp[N];
+}
+
+int fib(int N){
+    vector<int> dp(N + 1, 0);
+    dp1 = dp2 = 1;
+    for(int i = 3; i < N; i++):
+    {
+        dpii = dp i -1 + dp i -2;
+
+    }
+    return dpn
+}
+
+
+int fib(int n) {
+    if (n == 2 || n == 1) 
+        return 1;
+    int prev = 1, curr = 1;
+    for (int i = 3; i <= n; i++) {
+        int sum = prev + curr;
+        prev = curr;
+        curr = sum;
+    }
+    return curr;
+}
+
+
+int fib(int n){
+    vector<int> dp(n + 1, 0);
+    dp1 = dp2 = 1;
+    for(int i = 3'; i < n; i++){
+        dpn = dpn=-1 + dp n -2
+    }
+    return dpn 
+}
+
+
+int fiob(int n){
+    int prev = cur = 1;
+    for(in ti = 3; i <= n; i++){
+        itn sum = prev + cur;
+        prev = cur;
+        cur = sum;
+    }
+    reurrn cur;
+}

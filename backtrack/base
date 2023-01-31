@@ -1,3 +1,4 @@
+// i think this is good use
 // 记录所有全排列
 List<List<Integer>> res = new LinkedList<>();
 LinkedList<Integer> track = new LinkedList<>();
@@ -108,5 +109,84 @@ void backtrack(int[] nums, List<Integer> track){
         track.add(nums[i])
         backtrack(nnu)
         track.removeLast();
+    }
+}
+List<List<Ingeger>> rs = new List<>();
+LinkedList<Integrer> track = new LinkedList<>();
+
+List<List<Integer>> permute(int[] nums){
+    backtrack(nums);
+    return res;
+}
+
+
+void traverse(int[] nums, List<Integer> track){
+    if(track.size() == nums.length){
+        res.add(new LinkedList(track));
+        return;
+    }
+    for(int i : nums){
+        if(track.contains(Nums[i]))
+            continue
+
+        track.add(nums[i])
+        backtrack(num, track);
+        track.removeLast()
+    }
+}
+
+
+void traverse(int[] nums, List<Integer> track){
+    if(track.size() == nums.length){
+        res.add(new LinkedList(track));
+        return;
+    }
+    for(int i : nums){
+        if(track.contains(nums[i]))
+            continue;
+
+        track.add(nums[i])
+        backtrack(num, track);
+        track.removeLast();
+    }
+}
+
+
+result = []
+def backtrack(路径, 选择列表):
+    if 满足结束条件:
+        result.add(路径)
+        return
+
+    for 选择 in 选择列表:
+        做选择
+        backtrack(路径, 选择列表)
+        撤销选择
+
+
+result = []
+def backtrack(track, choice):
+    if done
+        resdult.add(track);
+        return
+    for( c in coince){
+        track.add(c);
+        backtrack()
+        track.removeLast()
+    }
+
+
+
+void traverse(TreeNode root) {
+    for (TreeNode child : root.childern)
+        // 前序遍历需要的操作
+        traverse(child);
+        // 后序遍历需要的操作
+}
+
+
+void t(root){
+    for(c in root.children){
+        t(c);
     }
 }
