@@ -20,3 +20,11 @@ I need to stop this feeling even it is real.\
 There is self censorship in China.\
 Which is crazy\
 Let me fight this\
+
+
+# I think i understand the coder way
+Only one way to success, write nice code\
+imagine you and your coworker working in the same team\
+what is the difference of position and salary\
+In China is leader decide, In others, more like let the market the decide\
+So how to let market decide, the only way is to write good code product.
