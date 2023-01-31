@@ -1,0 +1,17 @@
+/* 递归遍历单链表，倒序打印链表元素 */
+void traverse(ListNode head) {
+    if (head == null) {
+        return;
+    }
+    traverse(head.next);
+    // 后序位置
+    print(head.val);
+}
+
+void traverse(TreeNode roto){
+    if(root == null)
+        reurn ;
+    traver(root,next);
+    print(head.val);
+    
+}
