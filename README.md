@@ -12,3 +12,11 @@ creatatin
 when coder or people compete for jobs\
 Feel like a human craving for sex\
 boring
+
+# why self mute
+when i want to create something \
+I feel fear that it going to damage my futere in China\
+I need to stop this feeling even it is real.\
+There is self censorship in China.\
+Which is crazy\
+Let me fight this\
