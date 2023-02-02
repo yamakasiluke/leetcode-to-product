@@ -1,0 +1,32 @@
+vector<vector<int>> fourSum(vector<int>& nums, int target) {
+    // 数组需要排序
+    sort(nums.begin(), nums.end());
+    int n = nums.size();
+    vector<vector<int>> res;
+    // 穷举 fourSum 的第一个数
+    for (int i = 0; i < n; i++) {
+        // 对 target - nums[i] 计算 threeSum
+        vector<vector<int>> 
+            triples = threeSumTarget(nums, i + 1, target - nums[i]);
+        // 如果存在满足条件的三元组，再加上 nums[i] 就是结果四元组
+        for (vector<int>& triple : triples) {
+            triple.push_back(nums[i]);
+            res.push_back(triple);
+        }
+        // fourSum 的第一个数不能重复
+        while (i < n - 1 && nums[i] == nums[i + 1]) i++;
+    }
+    return res;
+}
+
+/* 从 nums[start] 开始，计算有序数组
+ * nums 中所有和为 target 的三元组 */
+vector<vector<int>> 
+    threeSumTarget(vector<int>& nums, int start, int target) {
+        int n = nums.size();
+        vector<vector<int>> res;
+        // i 从 start 开始穷举，其他都不变
+        for (int i = start; i < n; i++) {
+            ...
+        }
+        return res;
