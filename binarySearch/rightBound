@@ -34,3 +34,7 @@ int right_bound(int[] nums, int target) {
     return left - 1; // 注意
 }
 
+int left, right ;
+while(){
+
+}

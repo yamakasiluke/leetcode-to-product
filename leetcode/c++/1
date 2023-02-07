@@ -1,0 +1,19 @@
+class Solution
+{
+public:
+    vector<int> twoSum(vector<int> nums, int target)
+    {
+        int sz = nums.length;
+        for (int i = 0; i < sz; i++)
+        {
+            for (int j = i + 1; i < sz; j++)
+            {
+                if (nums[i] + nums[j] == target)
+                {
+                    return { i, j }
+                }
+            }
+        }
+        return {}
+    }
+}

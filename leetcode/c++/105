@@ -1,0 +1,62 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+
+    }
+
+    TreeNode* helper(TreeNode* pre, int prestart, int preend, TreeNode* in, int instart, int inend ){
+        TreeNode* root = new TreeNode();
+        root->left;
+        root->right;
+
+        return root;
+    }
+};
+
+rootIndex = inorder.find(preorder[0])
+leftarray = inoder[0, rootIndex -1]
+rightarray = ionorder[rootIndex + 1, ionorder.length]
+
+
+function g(preorder,inorder, ){
+if(root==null)
+    return null;
+localRoot = new TreeNode(preorder[0])
+leftarray = inoder[0, rootIndex -1]
+localRoot->left = g(leftarray)
+rightarray = ionorder[rootIndex + 1, ionorder.length]
+localRoot->right = g(rightarray)
+
+
+
+}
+
+
+
+
+
+
+[1,]
+[2,3,4,   1,    5,6,7,8]
+
+
+root = preorder[0]
+left = inorder[0..root-1]
+right = inorder[root+1...end]
+
+root1 = preorder[1]
+
+
+
+
