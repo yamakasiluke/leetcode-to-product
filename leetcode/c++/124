@@ -15,7 +15,6 @@ public:
     int maxPathSum(TreeNode* root) {
         oneSide(root);
         return res;
-
     }
 
     int oneSide(TreeNode* root){
@@ -28,6 +27,5 @@ public:
         res = max(res, sum);
 
         return max(left, right) + root->val;
-
     }
 };
