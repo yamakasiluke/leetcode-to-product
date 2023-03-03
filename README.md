@@ -28,3 +28,8 @@ imagine you and your coworker working in the same team\
 what is the difference of position and salary\
 In China is leader decide, In others, more like let the market the decide\
 So how to let market decide, the only way is to write good code product.
+
+# I think i did it
+I code for fun. 
+I master Leetcode to be a good programmer not all for a better job.  
+I feel good, peace.  
